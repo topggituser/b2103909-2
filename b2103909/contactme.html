@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/CW1.css" />
+  </head>
+  <body>
+    <header id="home" class="header-contact">
+      <div class="header_menu">
+        <a class="header_logo" href="https://www.mdis.uz/"
+          ><img
+            src="img/mdist.png"
+            alt="No photo no video"
+            width="200"
+            height="100"
+            padding="50"
+        /></a>
+        <nav class="header_nav">
+          <ul class="navbar">
+            <li class="nav_item">
+              <a href="index.html" class="header_nav_link">Home Page</a>
+            </li>
+            <li class="nav_item">
+              <a href="index.html#aboutme" class="header_nav_link">About Me</a>
+            </li>
+            <li class="nav_item">
+              <a href="portfolio.html" class="header_nav_link">Portfolio</a>
+            </li>
+            <li class="nav_item">
+              <a href="gallery.html" class="header_nav_link">Gallery</a>
+            </li>
+            <li class="nav_item">
+              <a href="contactme.html" class="header_nav_link">Contact Me</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="contacts" class="contacts">
+      <div class="contacts_container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, you can contact us</p>
+        <div class="contact-box">
+          <div class="contact-left">
+            <h3>Send your request</h3>
+            <form>
+              <div class="input-row">
+                <div class="input-group">
+                  <label>Name</label>
+                  <input type="text" placeholder="John Amendo" />
+                </div>
+                <div class="input-group">
+                  <label>Phone</label>
+                  <input type="text" placeholder="+998 27 2002 12 23" />
+                </div>
+              </div>
+              <div class="input-row">
+                <div class="input-group">
+                  <label>Email</label>
+                  <input
+                    type="email"
+                    placeholder="example@gmail.com"
+                    id="email"
+                    onkeypress="validation()"
+                  />
+                  <p id="email_text"></p>
+                </div>
+                <div class="input-group">
+                  <label>Subject</label>
+                  <input type="text" placeholder="Demo" />
+                </div>
+              </div>
+              <label>Message</label>
+              <textarea rows="5" placeholder="Your Message"></textarea>
+              <button type="submit" class="submit">Send</button>
+            </form>
+          </div>
+          <div class="contact-right">
+            <h3>Reach Me</h3>
+            <table>
+              <tr>
+                <td>Email</td>
+                <td>
+                  <a href="mailto: contactus@example.com"
+                    >contactus@example.com</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Phone</td>
+                <td>
+                  <a href="tel: +998(89) 951 45 87">+998(89) 951 45 87</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Adress</td>
+                <td>White street, Tashkent, Uzbekistan</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/hamburger.js"></script>
+    <script src="js/validation.js"></script>
+  </body>
+</html>

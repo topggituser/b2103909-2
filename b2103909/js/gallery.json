@@ -1,0 +1,48 @@
+[
+    {
+      "src": "img/01.png",
+      "alt": "Messenger",
+      "caption": "This is the logo of messenger"
+    },
+    {
+        "src": "img/02.png",
+        "alt": "Chrome",
+        "caption": "This is the logo of chrome"
+    },
+    {
+        "src": "img/03.png",
+        "alt": "pinterest",
+        "caption": "This is the logo of pinterest"
+    },
+    {
+        "src": "img/04.png",
+        "alt": "telegram",
+        "caption": "This is the logo of telegram"
+    },
+    {
+        "src": "img/05.png",
+        "alt": "facebook",
+        "caption": "This is the logo of facebook"
+      },
+      {
+          "src": "img/06.png",
+          "alt": "tiktok",
+          "caption": "This is the logo of tiktok"
+      },
+      {
+          "src": "img/07.png",
+          "alt": "Instagram",
+          "caption": "This is the logo of instagram"
+      },
+      {
+          "src": "img/08.png",
+          "alt": "Zoom",
+          "caption": "This is the logo of zoom"
+      },
+      {
+        "src": "img/09.png",
+        "alt": "Spotify",
+        "caption": "This is the logo of Spotify"
+    }     
+  ]
+  
